@@ -119,7 +119,7 @@ function getSymbols() {
 }
 
 function generatePassword() {
-  passwordFlag(true);
+  passwordFlag=true;
   let passwordArray = [];
 
   if (upper) passwordArray.push(getUpperCaseLetter);
