@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.top-level{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgb(155, 27, 155), rgb(30, 30, 171));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.heading{
+    width: 300px;
+    font-size: x-large;
+    color: whitesmoke;
+    text-decoration: double ;
+    
+}
+
+.head-top{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.input-field{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(34, 13, 34);
+    border: 10px solid rgb(34, 13, 34);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#text-area{
+    background-color: rgb(34, 13, 34);
+    color: goldenrod;
+    font-size: large;
+    box-shadow: none;
+    border: 2px solid  rgb(34, 13, 34);;
+}
+
+#copy-btn{
+    mix-blend-mode: darken;
+}
+
+.sec-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(34, 13, 34);
+    border: 10px solid rgb(34, 13, 34);
+    border-radius: 10px;
+    /* height: 250px; */
+    gap: 10px;
+
+}
+
+.pword-len{
+    display: flex;
+   justify-content: space-between;
+   /* align-items: center; */
+   width: 200px;
+   background-color: rgb(34, 13, 34);
+    border: 10px solid rgb(34, 13, 34);
+
+  
+}
+
+.input-label{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: rgb(34, 13, 34);
+    color: white;
+    font-size: medium;
+    font-weight: 200;
+    
+}
+
+.ip{
+    display: flex;
+  gap: 10px;
+  width: 200px;
+   
+}
+
+.str{
+    font-size: larger;
+    color: white;
+}
+.slider{
+    background-color: palevioletred;
+    border: 2px solid yellow;
+    width: 200px;
+    height: 50px;
+}
+.stength-div{
+    display: flex;
+
+    width: 200px;
+    justify-content: space-between;
+}
+
+#btn{
+    width: 200px;
+    border-bottom: 5px solid yellow;
+    border-radius: 10px;
+   
+    background-color: rgb(34, 13, 34);
+    color: rgb(247, 247, 7);
+    height: 50px;
+    font-weight: bold;
+
+}
+
+#myRange{
+    color: aqua;
+}
+#indicator{
+    width: 20px;
+    height: 20px;
+    border: 2px solid ;
+    border-radius: 20px;
+
+}
+
+.p-head{
+
+    color: white;
+    font-size: large
+}
+
+#pword-length{
+    color: yellow;
+    font-size: large;
+}

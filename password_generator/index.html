@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"/>
+ 
+</head>
+<body>
+   
+    <div class="top-level">
+        <div class="main">     
+              <div class="head-top">
+        <h1 class="heading">PASSWORD GENERATOR</h1>
+        <div class="input-field">
+            <input type="text" id="text-area" value="Password" disabled/>
+            <button id="copy-btn"><img src="./copy-icon.png" width="20px" /></button>
+
+        </div>
+    </div>
+        <div class="sec-top">
+            <div class="pword-len">
+                <div class="p-head">
+                    Password length
+                </div>
+                <div id="pword-length"></div>
+            </div>
+            <div class="slidecontainer">
+                <input type="range" min="1" max="20" value="10" class="slider" id="myRange">
+              </div>
+            <div class="input-label">
+                <div class="ip"><input type="checkbox" id="up" /><p>include uppercase letters </p> </div>
+                <div class="ip"><input type="checkbox" id="lc" /><p>include lowercase letters </p> </div>
+                <div class="ip"><input type="checkbox" id="num" /><p>include numbers </p> </div>
+                <div class="ip"><input type="checkbox" id="sym" /><p>symbols </p> </div>
+                
+                
+                
+                
+            </div>
+            <div class="stength-div">
+                <div class="str">
+
+                    Strength
+                </div>
+                <div  id="indicator">
+                
+                </div>
+
+            </div>
+            <button id="btn">GENERATE PASSWORD</button>
+        </div>
+    </div>
+
+    </div>
+     <script src="script.js"/>
+   
+</body>
+</html>
